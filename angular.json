@@ -7,8 +7,8 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
-          "inlineStyle": true,
+          "inlineTemplate": false,
+          "inlineStyle": false,
           "skipTests": true
         },
         "@schematics/angular:class": {
@@ -52,6 +52,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a04b6374-4fe6-4599-9d03-e2a3c326e637"
   }
 }

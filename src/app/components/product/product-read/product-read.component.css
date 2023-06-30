@@ -1,0 +1,16 @@
+table {
+    background-color: #262626 !important;
+    color: red !important;
+}
+
+.edit {
+    margin-right: 10px;
+}
+
+.edit>i {
+    color: rgb(255, 196, 0);
+}
+
+.delete>i {
+    color: red;
+}
