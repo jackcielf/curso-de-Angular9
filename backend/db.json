@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Samsung A12",
+      "price": 1999.99
+    },
+    {
+      "id": 3,
+      "name": "Notebook Acer Slim",
+      "price": 4899.99
+    },
+    {
+      "name": "Cadeira",
+      "price": "30",
+      "id": 4
+    },
+    {
+      "name": "Mesa",
+      "price": "50",
+      "id": 5
+    },
+    {
+      "name": "Maquina de lavar",
+      "price": "800",
+      "id": 6
+    }
+  ]
+}
